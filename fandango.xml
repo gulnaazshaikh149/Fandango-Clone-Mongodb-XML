@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="fandango.css"?>
+<rootElement xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="fandango.xsd">
+<theatres>
+        <heading>Gulnaaz Shaikh's XML Project</heading>
+        <theatre id="1">
+            <details>
+                  <theatrename>Movies 10</theatrename>
+                        <theatreaddress>2609 West Henrietta Road, Rochester, NY 14623</theatreaddress>
+            </details>
+            <subheading>
+                        <subname>Movie Name</subname>
+                        <subgenre>Genre</subgenre>
+                        <subpg>PG</subpg>
+                        <subduration>Duration</subduration>
+                        <subtime>Timings</subtime>
+            </subheading>
+                 <movie id="1">
+                       <moviename>TALK TO ME</moviename>
+                       <moviegenre>Horror</moviegenre>
+                       <moviepg>R</moviepg>
+                       <movieduration>1 hr 34 min</movieduration>
+                       <movietimes>2:20pm | 8:30pm</movietimes>
+                 </movie>
+                 
+                 <movie id ="2">
+                  <moviename>Oppenheimer</moviename>
+                       <moviegenre>Drama</moviegenre>
+                       <moviepg>R</moviepg>
+                       <movieduration>3 hour</movieduration>
+                       <movietimes>11:40am | 3:25pm | 7:10pm</movietimes>
+                 </movie>
+                  
+                 <movie id="3">
+                     <moviename>Barbie 2023 </moviename>
+                       <moviegenre>Comedy</moviegenre>
+                       <moviepg>PG-13</moviepg>
+                       <movieduration>1 hr 54 min</movieduration>
+                       <movietimes>12:10pm | 2:40pm | 5:15pm | 7:50pm</movietimes>
+                 </movie>
+        </theatre>
+        <theatre id="2">
+                 <details>
+                  <theatrename>Cinemark Tinseltown Rochester and Imax</theatrename>
+                        <theatreaddress>2291 Buffalo Road, Rochester, NY 14624</theatreaddress>
+            </details>
+                  <subheading>
+                        <subname>Movie Name</subname>
+                        <subgenre>Genre</subgenre>
+                        <subpg>PG</subpg>
+                        <subduration>Duration</subduration>
+                        <subtime>Timings</subtime>
+            </subheading>
+                 <movie id="1">
+                       <moviename>JAWAN 2023      </moviename>
+                       <moviegenre>Action</moviegenre>
+                       <moviepg>PG-13</moviepg>
+                       <movieduration>2 hr 45 min</movieduration>
+                       <movietimes>10:15am | 4:55pm | 8:40pm</movietimes>
+                 </movie>
+                 <movie id="2">
+                       <moviename>STRAYS 2023      </moviename>
+                       <moviegenre>Comedy</moviegenre>
+                       <moviepg>R</moviepg>
+                       <movieduration>1 hr 33 min</movieduration>
+                       <movietimes>5:30pm | 10:45pm </movietimes>
+                 </movie>
+                 <movie id="3">
+                  <moviename>Haunted Mansion</moviename>
+                       <moviegenre>Comedy</moviegenre>
+                       <moviepg>PG-13</moviepg>
+                       <movieduration>2 hr 2 min</movieduration>
+                       <movietimes>10:20am | 1:15pm</movietimes>
+                 </movie>
+        </theatre>
+</theatres>
+</rootElement>

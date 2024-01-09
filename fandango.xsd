@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="theatres">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element type="xsd:string" name="heading"/>
+        <xsd:element name="theatre" maxOccurs="unbounded" minOccurs="0">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="details">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element type="xsd:string" name="theatrename"/>
+                    <xsd:element type="xsd:string" name="theatreaddress"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="subheading">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element type="xsd:string" name="subname"/>
+                    <xsd:element type="xsd:string" name="subgenre"/>
+                    <xsd:element type="xsd:string" name="subpg"/>
+                    <xsd:element type="xsd:string" name="subduration"/>
+                    <xsd:element type="xsd:string" name="subtime"/>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="movie" maxOccurs="unbounded" minOccurs="0">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element type="xsd:string" name="moviename"/>
+                    <xsd:element type="xsd:string" name="moviegenre"/>
+                    <xsd:element type="xsd:string" name="moviepg"/>
+                    <xsd:element type="xsd:string" name="movieduration"/>
+                    <xsd:element type="xsd:string" name="movietimes"/>
+                  </xsd:sequence>
+                  <xsd:attribute type="xsd:byte" name="id" use="optional"/>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute type="xsd:byte" name="id" use="optional"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

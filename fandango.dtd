@@ -1,0 +1,20 @@
+<!ELEMENT theatres (heading, theatre+)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT theatre (details, subheading, movie+)>
+<!ELEMENT details (theatrename, theatreaddress)>
+<!ELEMENT theatrename (#PCDATA)>
+<!ELEMENT theatreaddress (#PCDATA)>
+<!ELEMENT subheading (subname,subgenre,subpg,subduration,subtime)>
+<!ELEMENT subname (#PCDATA)>
+<!ELEMENT subgenre (#PCDATA)>
+<!ELEMENT subpg (#PCDATA)>
+<!ELEMENT subduration (#PCDATA)>
+<!ELEMENT subtime (#PCDATA)>
+<!ELEMENT movie (moviename,moviegenre,moviepg,movieduration,movietimes)>
+<!ELEMENT moviename (#PCDATA)>
+<!ELEMENT moviegenre (#PCDATA)>
+<!ELEMENT moviepg (#PCDATA)>
+<!ELEMENT movieduration (#PCDATA)>
+<!ELEMENT movietimes (#PCDATA)>
+<!ATTLIST theatre id CDATA #REQUIRED>
+<!ATTLIST movie id CDATA #REQUIRED>

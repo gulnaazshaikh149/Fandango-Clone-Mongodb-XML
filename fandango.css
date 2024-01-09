@@ -1,0 +1,118 @@
+theatres {
+	font-size:medium;
+    margin:0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    display:block;
+    background-color: #d0c4d3;
+}
+
+theatres heading {
+    display:block; 
+    margin:0.5em; 
+    padding:0.5em; 
+    font-weight:bold;
+    text-align:center;
+    font-size:35px;
+    background-color: rgb(93, 15, 88);
+     color: #efefef;
+}
+
+details {
+	display: block;
+	margin-top: 50px;
+}
+
+theatre theatrename {
+	display:block; 
+    margin:0.5em; 
+    padding:0.5em; 
+    background-color:#FFFFFF;
+	color:rgb(93, 15, 88); 
+	font-weight:bolder;
+    font-size:20px;
+}
+
+theatre theatreaddress {
+	color:rgb(93, 15, 88); 
+     font-weight:bolder;
+     font-size:20px;
+     display:block;
+     text-align:left;
+}
+
+theatre subname {
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 15px;
+    color: rgb(93, 15, 88);
+}
+
+theatre subpg {
+	margin-left: 150px;
+	margin-top: 10px;
+	font-size: 15px;
+    color: rgb(93, 15, 88);
+}
+
+theatre subduration {
+	margin-left: 200px;
+	margin-top: 10px;
+	font-size: 15px;
+    color: rgb(93, 15, 88);
+}
+
+theatre subgenre {
+	margin-left: 100px;
+	margin-top: 10px;
+	font-size: 15px;
+    color: rgb(93, 15, 88);
+}
+
+theatre subtime {
+	margin-left: 250px;
+	margin-top: 10px;
+	font-size: 15px;
+    color: rgb(93, 15, 88);
+}
+
+moviename {
+	margin-left: 5px;
+	margin-top: 20px;
+	font-size: 15px;
+    color: rgb(93, 15, 88);
+}
+
+movie {
+	display:block;
+}
+
+movie movieduration {
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+movie moviegenre {
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+movie movietimes {
+	margin-left: 250px;
+	margin-top: 20px;
+}
+
+movie moviepg{
+	margin-left:150px;
+	margin-top: 20px;
+}
+subheading {
+	border: 1px solid rgb(93, 15, 88);
+}
+
+details {
+	border: 1px solid rgb(93, 15, 88);
+}
+
+movie {
+	border: 1px solid rgb(93, 15, 88);
+}
